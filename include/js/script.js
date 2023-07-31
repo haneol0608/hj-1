@@ -3543,6 +3543,7 @@ function draw_delete2(e) {
                 'draw_delPorNo': draw_delPorNo
             },
             success: function (data) {
+                alert(data);
                 alert('도면 삭제!!');
                 location.reload(true);
 
@@ -3666,6 +3667,7 @@ function quantity_delete2() {
             'del_quantity_seq': quantity_seq
         },
         success: function(data) {
+            alert(data);
             location.reload(true);
         },
         beforeSend: function () {

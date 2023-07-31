@@ -35,6 +35,7 @@
       }
     }
 
+
     $res = mysqli_query($conn, $sql);
     $total_record = mysqli_num_rows($res); // 모든 게시글 수
 
@@ -55,7 +56,7 @@
       $block_end = $total_page;
     }
 
-    // echo "페이지 수 : " . $total_page . "<br>";
-    // echo "시작 블록 : " . $block_start . "<br>";
-    // echo "마지막 블록 : " . $block_end . "<br>";
+    echo "페이지 수 : " . $total_page . "<br>";
+    echo "시작 블록 : " . $block_start . "<br>";
+    echo "마지막 블록 : " . $block_end . "<br>";
 ?>
