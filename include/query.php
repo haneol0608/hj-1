@@ -1,9 +1,9 @@
 <?php include "dbcon.php"; ?>
 <?php header("Content-Type:text/html;charset=utf-8"); ?>
 <?php
-    include_once 'lib/PHPExcel.php';
-    require_once("lib/PHPExcel/IOFactory.php");
-    require_once("lib/PHPExcel/Reader/Excel2007.php");
+    // include_once 'lib/PHPExcel.php';
+    // require_once("lib/PHPExcel/IOFactory.php");
+    // require_once("lib/PHPExcel/Reader/Excel2007.php");
 ?>
 <?php
 
