@@ -1,0 +1,373 @@
+.mes1_3 .sub_plate h3 {
+  margin-bottom: 10px;
+}
+.defect_add {
+  padding: 10px;
+  border: 2px solid #efefef;
+}
+.defect_add {
+  padding: 10px;
+  border: 3px solid #efefef;
+  width: 50%;
+  margin: 0 auto;
+}
+.defect_add ul {
+    display: flex;
+}
+.defect_add ul li {
+    flex: 1;
+    text-align: center;
+}
+.defect_add ul:nth-child(1) li {
+    background: #efefef;
+    margin: 3px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.defect_add ul:nth-child(1) li:nth-child(3) {
+  padding: 0;
+}
+.defect_add span {
+  margin: 3px;
+  display: block;
+}
+.defect_add select {
+  width: 100%;
+}
+.defect_add ul:nth-child(1) li input[type=text] {
+  width: 100%;
+}
+.defect_add ul:nth-child(1) li input[type=submit] {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border-style: none;
+  border-radius: 5px;
+  background: rgba(5, 150, 149, 0.2);
+  box-shadow: 0 0.125rem 0.25rem rgb(147 158 170 / 40%);
+  font-size: 1em;
+  font-weight: bold;
+}
+.defect_add ul:nth-child(1) li:nth-last-child(1) {
+  background: none;
+  flex: 0.4;
+}
+
+/***** 제품불량유형등록 *****/
+.mes1_3 .defect_type_list table thead td:nth-child(1) {
+  width: 10%;
+}
+.mes1_3 .defect_type_list table thead td:nth-child(4) {
+  width: 15%;
+}
+.mes1_3 .defect_type_list input[type=button]:nth-child(1) {
+  background: rgba(155, 192, 277, 0.3);
+  border: 1px solid rgba(155, 192, 277, 1);
+  margin: 0 3px;
+}
+
+/***** 제품출하처리 *****/
+.mes3_4 .release_table tbody td:nth-last-child(1) input:nth-child(1) {
+  background: rgba(255, 73, 97, 0.2);
+  border: 1px solid rgba(255, 73, 97, 0.5);
+}
+.mes3_4 .release_table tbody td:nth-last-child(1) input:nth-child(2) {
+  background: rgba(70, 188, 170, 0.2);
+  border: 1px solid rgba(70, 188, 170, 1);
+}
+
+
+/***** 제품출하현황 *****/
+.mes3_5 .sub_plate:nth-child(1) {
+  height: auto;
+}
+.mes3_5 .sub_plate:nth-child(2) {
+  height: 70%;
+}
+.mes3_5 .release_table thead td:nth-child(1) {
+  width: 10%;
+}
+
+/***** 제품입고등록 *****/
+
+.mes3_1 .incoming_table input[type=button]:nth-child(1) {
+  background: rgba(155, 192, 277, 0.3);
+  border: 1px solid rgba(155, 192, 277, 1);
+  margin: 0 3px;
+}
+
+/***** 제품입고현황 *****/
+
+
+/***** 수주정보관리 *****/
+.mes4_1 .drawing_table td:nth-last-child(1) input[type=submit]:nth-child(1) {
+  background: rgba(155, 192, 277, 0.3);
+  border: 1px solid rgba(155, 192, 277, 1);
+  margin: 0 3px;
+}
+.mes4_1 .drawing_table thead td:nth-child(1) {
+    width: 10%;
+}
+
+/***** 생산계획정보관리 *****/
+.mes4_2 .sub04_dt thead td:nth-child(1) {
+  width: 10%;
+}
+
+/***** 작업지시서관리 *****/
+.dr_id {
+  position: relative;
+}
+span.close {
+    background: #fff;
+    border-radius: 50%;
+    /* width: 29px; */
+    padding: 5px 10px;
+    /* height: 30px; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn_div {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 98%;
+  width: 30px;
+
+}
+
+.container.sub1109 .add_code p {
+    margin-right: 7px;
+}
+
+/***** 시스템관리 - 설정관리 SETTING *****/
+
+.tb_style1 td,
+.tb_style1 th {
+    border-left: none;
+    border-right: none;
+}
+
+.tb_style1 thead th:nth-child(1) {
+    width: 8%;
+}
+
+.tb_style1 thead th:nth-last-child(1) {
+    width: 15%;
+}
+
+.tb_style2 td,
+.tb_style2 th {
+    border-left: none;
+    border-right: none;
+}
+
+.tb_style2 tbody td:nth-child(even) {
+    background: rgba(232, 240, 253, 0.5);
+}
+
+.tb_style2 thead th:nth-child(1) {
+    width: 8%;
+}
+
+.tb_style2 thead th:nth-last-child(2) {
+    width: 15%;
+}
+
+.tb_style2 thead th:nth-last-child(1) {
+    width: 15%;
+}
+
+.tb_style3 td,
+.tb_style3 th {
+    border-left: none;
+    border-right: none;
+}
+
+.tb_style3 tr:nth-child(even) {
+    background: rgba(232, 240, 253, 0.5);
+}
+
+.tb_style3 thead th:nth-child(1) {
+    width: 8%;
+}
+
+.tb_style3 thead th:nth-last-child(1) {
+    width: 15%;
+}
+
+.tb_style4 tbody td:nth-child(even) {
+    background: rgba(232, 240, 253, 0.5);
+}
+
+.tb_style4 thead th:nth-child(1) {
+    width: 8%;
+}
+
+.tb_style4 thead th:nth-last-child(1) {
+    width: 15%;
+}
+
+.setting img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #283144;
+}
+
+.setting input[type="button"] {
+    font-size: 1.3em;
+    display: inline-block;
+    background: rgba(5, 150, 149, 0.2);
+    padding: 5px 10px;
+    border-radius: 10px;
+    /* box-shadow: inset 2px 2px 5px #fff, inset -2px -2px 5px #999; */
+    margin-bottom: 10px;
+    border: 3px double rgba(5, 150, 149, 0.5);
+}
+.setting {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.setting>div {
+    margin-bottom: 50px;
+    text-align: center;
+    width: 48%;
+}
+.tb_p {
+    text-align: right;
+    color: #666;
+}
+
+.now_tb {
+    margin: 25px 0;
+}
+
+.tb_h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.now_tb table {
+    width: 55%;
+}
+
+.mes5_4 .ct_body {
+    height: 100%;
+}
+
+.mes5_4 .search_box2 input[type=text],
+.mes6_3 .search_box2 select {
+    margin-right: 3px;
+}
+
+.mes5_4 .search_box2 {
+    position: relative;
+    padding: 0;
+    margin-bottom: 10px;
+    background: none;
+}
+
+.mes5_4 .notice table thead td:nth-child(2) {
+    width: 70%;
+}
+
+.notice_write table {
+    table-layout: auto;
+    margin-bottom: 10px;
+}
+
+.notice_write table th {
+    width: 200px;
+}
+
+.n_ft {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.notice_write table th,
+.notice_write table td {
+    border-right: hidden;
+    border-left: hidden;
+}
+
+.notice_write table input[type="text"] {
+    width: 100%;
+}
+
+.notice_read table th,
+.notice_read table td {
+    border-right: hidden;
+    border-left: hidden;
+}
+
+.notice_read table {
+    table-layout: auto;
+    margin-bottom: 10px;
+}
+
+.notice_read table input[type="text"] {
+    width: 100%;
+}
+
+.n_ct {
+    height: 500px;
+}
+
+.notice_write,
+.notice_read {
+    padding: 30px 20px;
+}
+
+.n_ft button {
+    display: block;
+    width: 150px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.n_ft button:nth-child(1) {
+    background: rgba(90, 141, 238, 0.9);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 3px 0;
+    border: solid 1px #fff;
+}
+
+.n_ft button:nth-child(2) {
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 3px 0;
+}
+
+.write_post {
+    text-align: right;
+}
+
+.write_post button {
+    background: rgb(136, 152, 169);
+    font-size: 1em;
+    padding: 5px 10px;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.notice {
+    height: 90%;
+}
+
+.n_date2 {
+    display: none;
+}

@@ -1,0 +1,306 @@
+/* UTF-8 */
+
+@charset "utf-8";
+
+/* 여백초기화 */
+
+
+/* body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,table,th,td,tr,textarea,button,form,figure,figcaption {margin: 0; padding: 0;} */
+
+
+/* a 링크 초기화 */
+
+
+/* a {color: #222; text-decoration: none;} */
+
+
+/* a:hover {color: #2698cb;} */
+
+
+/* 폰트 초기화 */
+
+body,
+input,
+textarea,
+select,
+button,
+table {
+    font-family: AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+    /* color: #222; font-size: 13px; line-height: 1.5; */
+}
+
+
+/* 폰트 스타일 초기화 */
+
+
+/* em, address {font-style: normal;} */
+
+
+/* 블릿기호 초기화 */
+
+
+/* ul,li,ol {list-style: none;} */
+
+
+/* 제목 태그 초기화 */
+
+
+/* h1,h2,h3,h4,h5,h6 {font-size: 13px; font-weight: normal;} */
+
+
+/* IR 효과 : 웹 표준 준수 */
+
+.ir_pm {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+
+/* 의미있는 이미지의 대체 텍스트를 제공하는 경우(Phark Method) */
+
+.ir_wa {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 의미있는 이미지의 대체 텍스트로 이미지가 없어도 대체 텍스트를 보여주고자 할 때(WA IR) */
+
+.ir_su {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+
+/* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때
+
+/* 숫자 오른쪽 정렬 */
+
+td.num {
+    text-align: right;
+}
+
+input.num {
+    text-align: right;
+}
+
+p.num {
+    text-align: right;
+}
+
+
+/* 문자열 가운데 정렬 */
+
+td.letter {
+    text-align: center;
+}
+
+input.letter {
+    text-align: center;
+}
+
+p.letter {
+    text-align: center;
+}
+
+
+/* 문자열 가운데 정렬 */
+
+select#input {
+    width: 75%;
+}
+
+
+/***** JENNA *****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    font-size: 0;
+}
+
+a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    /* background: #f4f4f9; */
+    background: #f8f8f8;
+    height: 100%;
+}
+
+
+/******* table *******/
+
+table,
+td,
+th {
+    border: 0.5px solid #b7c1cb;
+    border-right-style: none;
+    border-left-style: none;
+}
+
+th,
+td {
+    border-bottom: 1px solid #b7c1cb;
+    border-left: 1px solid #b7c1cb;
+    padding: 10px;
+}
+
+th:first-child,
+td:first-child {
+    border-left: none;
+}
+
+table {
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+thead {
+    position: sticky;
+    top: -20px;
+    z-index: 1;
+    background-color: #8898a9;
+    table-layout: fixed;
+    /* color: #113254; */
+    color: #fff;
+    font-weight: bold;
+}
+
+tbody {
+    background-color: #fff;
+}
+
+table {
+    text-align: center;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+thead td {
+    text-align: center;
+    border-top-color: #fff;
+}
+
+table td.photo>img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/********** options **********/
+
+input[type=button],
+input[type=text],
+input[type=submit] {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select {
+    text-align: center;
+    padding: 3px;
+}
+
+.search_box input[type=submit],
+.search_box input[type=button] {
+    padding: 5px;
+}
+
+
+/****SCROLL****/
+
+.sub_plate::-webkit-scrollbar,
+.container.sub04_1:nth-child(2)::-webkit-scrollbar {
+    background-color: rgba(155, 192, 227, 0.1);
+    height: 5px;
+    width: 5px;
+}
+
+.sub_plate::-webkit-scrollbar-thumb,
+.container.sub04_1:nth-child(2)::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 192, 227, 0.3);
+    border-radius: 100px;
+}
+
+.sub_plate::-webkit-scrollbar-track,
+.container.sub04_1:nth-child(2)::-webkit-scrollbar-track {
+    border: 1px solid rgba(155, 192, 227, 0.5);
+    /* background-color: rgba(155, 192, 227, 0.1); */
+    border-radius: 100px;
+}
+
+.pagination {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.pagination p {
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #b7c1cb;
+}
+
+input.qtNo {
+    width: 60px;
+    text-align: center;
+}
+
+
+/***** mobile *****/
+
+@media all and (max-width: 500px) {
+    input[type=button],
+    input[type=text],
+    input[type=submit] {
+        margin: 2px 0;
+        padding: 10px;
+    }
+    select {
+        padding: 10px;
+    }
+    .sub_plate {
+        overflow: auto;
+    }
+}

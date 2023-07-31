@@ -1,0 +1,61 @@
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th:first-child,
+td:first-child {
+    border: 1px solid black;
+}
+
+table {
+    background-color: #fff;
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+    border: 1px solid black;
+    page-break-inside: auto;
+    font-size: 0.8em;
+}
+
+thead {
+    position: sticky;
+    top: -20px;
+    z-index: 1;
+    table-layout: fixed;
+    color: #fff;
+    font-weight: bold;
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+thead td {
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    /* background: #ddd; */
+}
+
+table .take_over {
+    margin: -30px auto;
+}
+
+table h1 {
+    margin: 5px auto;
+}
+
+table pre {
+    font-size: 1.5em;
+}
+
+.drawing_table tbody tr td:nth-child(2n) {
+    width: 35%;
+}
+
+.drawing_table tbody td:nth-last-child(1) {
+    width: 25%;
+}
